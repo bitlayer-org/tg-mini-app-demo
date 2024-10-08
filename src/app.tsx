@@ -45,7 +45,6 @@ export const App: FC = () => {
       }
       return null;
     };
-    // overrideWindowOpen();
   }, []);
 
   useEffect(() => {
