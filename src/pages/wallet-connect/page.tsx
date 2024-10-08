@@ -134,16 +134,6 @@ export function WalletConnectPage() {
             </Button>
           )}
         </Cell>
-        <Cell>
-          <Link>
-            <a href="https://metamask.app.link">MetaMask</a>
-          </Link>
-        </Cell>
-        <Cell>
-          <Link>
-            <a href="https://355c3409.bl-official-site-test.pages.dev">Bitlayer</a>
-          </Link>
-        </Cell>
       </Section>
       <DisplayData header={'Wallet Info'} rows={walletData} />
       <TokenList address={address} />
